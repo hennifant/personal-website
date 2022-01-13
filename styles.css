@@ -1,0 +1,57 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: red;
+    /* box-shadow:  blueviolet; */
+    margin-top: 20px;
+    background-color: yellow;
+    padding: 30px ;
+}
+
+a {
+    background-color: darkcyan;
+    color:yellow;
+    padding: 10px 18px 10px 18px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px yellow;
+    
+}
+
+nav {
+    text-align: center;
+    color: crimson;
+}
+
+img {
+    border-radius: 20px;
+    margin-top: 30px;
+    align-self: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+dl {
+    text-align: center;
+}
+
+dd {
+    text-align: left;
+}
+
+section {
+    text-align: center;
+}
