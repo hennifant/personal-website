@@ -5,37 +5,112 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Henning Schwichow</title>
+  <title>My Personal Website</title>
+  <meta name="author" content="HSchwichow">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <header>
-    <h1>Henning Schwichow</h1>
+  <header id="begin">
+    <a href="">Henning Schwichow<a>
     <nav>
-      <a href="#contact">Contact</a>
-      <a href="#biography">Biography</a>
+      <ul>
+        <li><a href="#biography" class="button">Biography</a></li>
+        <li><a href="#interests" class="button">Interests</a></li>
+        <li><a href="#gallery"  class="button">Gallery</a></li>
+        <li><a href="#contacts" class="button">Contact</a></li> 
+      </ul>
     </nav>
   </header>
-  <figure>
-    <img src="https://source.unsplash.com/random/600x300" alt="">
-    <figcaption>Random image</figcaption>
-  </figure>
-  
-  <dl>
-    <dt> <h3>Part 1</h3></dt>
-    <dd>Content</dd>
-    <dt> <h3>Part 2</h3></dt>
-    <dd>Content</dd>
-  </dl>
+<div class="header-img"></div> 
+<main>
+   
+<div class="spacer"></div>
 
-
-  
-  <section id="contacts">
-    <h2>Contact</h2>
-  </section>
+<div class="wrapper">
   <section id="biography">
     <h2>Biography</h2>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est 
+        Lorem ipsum dolor sit amet.
+      </p>
+    </div>
   </section>
+</div> 
+
+<div class="spacer"></div>
+  
+<div class="wrapper">
+  <section id="interests">
+    <h2>Interests</h2>
+      <ul class="interest">
+        <li class="interest-tag">Pixelart</li>
+        <li class="interest-tag">Coding</li>
+        <li class="interest-tag">Politics & History</li>
+        <li class="interest-tag">Sport</li>
+        <li class="interest-tag">Gaming</li>
+      </ul>
+  </section>
+</div>
+
+  <div class="spacer"></div>
+
+  <h2>Gallery</h2>
+
+  <section class="gallery">
+    
+    <div class="gallery-img">
+      <img src="./images/bridge-gd0d52bc19_640.jpg" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="./images/butterfly-gd50640ad5_640.jpg" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="./images/dragonfly-gbff221a58_640.jpg" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="./images/frog-ga4dc73e66_640.jpg" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="./images/garden-g57ec018f8_640.jpg" alt="">
+    </div>
+    <div class="gallery-img">
+      <img src="./images/tree-g56fe0cf16_640.jpg" alt="">
+    </div>
+  </section>
+
+  <div class="spacer"></div>
+
+  <a class="contacts" id="contact-me"></a>
+
+  <div class="wrapper">
+    <h3>Contact</h3>
+      <div class="contact-info">
+        <div>
+          <h4>Call! Me! Now!</h4>
+            <p><i class="phony"></i><a href="tel:+491234567890">1234 567890</a></p>
+        </div>
+        <div>
+          <h4>Mail</h4>
+          <p><i class="maily"></i><a href="mailto:henning.schwichow@gmx.de">henning.schwichow@gmx.de</a></p>
+        </div>
+      </div>
+  </div>
+         
+  
+  <div class="spacer"></div>
+
+</main>
+  <footer>
+    <ul>
+      <li><a href="" class="button">Links</a></li>
+      <li><a href="" class="button">Contact</a></li>
+      <li><a href="#contacts" class="button">FAQ</a></li>
+    </ul>
+  </footer>
 
 </body>
 
