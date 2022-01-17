@@ -8,109 +8,83 @@
   <title>My Personal Website</title>
   <meta name="author" content="HSchwichow">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/d7215b69a8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header id="begin">
-    <a href="">Henning Schwichow<a>
-    <nav>
-      <ul>
-        <li><a href="#biography" class="button">Biography</a></li>
-        <li><a href="#interests" class="button">Interests</a></li>
-        <li><a href="#gallery"  class="button">Gallery</a></li>
-        <li><a href="#contacts" class="button">Contact</a></li> 
-      </ul>
-    </nav>
+  <header>
+    <h1><a href="">Henning Schwichow</a></h1>
+    <nav class="main-navigation">
+      <a class="button" href="#biography" >Biography</a>
+      <a class="button" href="#interests" >Interests</a>
+      <a class="button" href="#gallery"  >Pixelart</a>
+      <a class="button" href="#contacts" >Contact</a>
+    </nav>  
   </header>
-<div class="header-img"></div> 
-<main>
-   
-<div class="spacer"></div>
-
-<div class="wrapper">
-  <section id="biography">
-    <h2>Biography</h2>
-    <div>
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est 
-        Lorem ipsum dolor sit amet.
-      </p>
-    </div>
-  </section>
-</div> 
-
-<div class="spacer"></div>
   
-<div class="wrapper">
-  <section id="interests">
-    <h2>Interests</h2>
-      <ul class="interest">
-        <li class="interest-tag">Pixelart</li>
-        <li class="interest-tag">Coding</li>
-        <li class="interest-tag">Politics & History</li>
-        <li class="interest-tag">Sport</li>
-        <li class="interest-tag">Gaming</li>
-      </ul>
-  </section>
-</div>
+  <div class="header-img"></div> 
 
-  <div class="spacer"></div>
+  <section class="wrapper">
+    <div id="biography">
+        <h2>Biography</h2>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est 
+            Lorem ipsum dolor sit amet.</p>
+    </div>
 
-  <h2>Gallery</h2>
+    <div id="interests">
+        <h2>Interests</h2>
+          <ul class="interest"> 
+            <li class="interest-tag">Pixelart</li>
+            <li class="interest-tag">Coding</li>
+            <li class="interest-tag">Politics & History</li>
+            <li class="interest-tag">Sport</li>
+            <li class="interest-tag">Gaming</li>
+            <li class="interest-tag">Reading Books</li>
+          </ul>
+    </div>
 
-  <section class="gallery">
     
-    <div class="gallery-img">
-      <img src="./images/bridge-gd0d52bc19_640.jpg" alt="">
+    <div id="gallery">
+      <h2>Pixelart</h2>
+
+        <section class="gallery"> 
+          <div class="gallery-img">
+            <img src="./images/bridge-gd0d52bc19_640.jpg" alt="">
+          </div>
+          <div class="gallery-img">
+            <img src="./images/butterfly-gd50640ad5_640.jpg" alt="">
+          </div>
+          <div class="gallery-img">
+            <img src="./images/dragonfly-gbff221a58_640.jpg" alt="">
+          </div>
+          <div class="gallery-img">
+            <img src="./images/frog-ga4dc73e66_640.jpg" alt="">
+          </div>
+
+        </section>
     </div>
-    <div class="gallery-img">
-      <img src="./images/butterfly-gd50640ad5_640.jpg" alt="">
+    
+    <div id="contact">
+      <h2>Contact</h2>
+        <h3>Call! Me! Now!</h3>
+          <p><a href="tel:+491234567890">1234 567890</a></p>
+        <h3>Mail: </h3>
+          <p><a href="mailto:henning.schwichow@gmx.de">henning.schwichow [at] gmx.de</a></p>
     </div>
-    <div class="gallery-img">
-      <img src="./images/dragonfly-gbff221a58_640.jpg" alt="">
-    </div>
-    <div class="gallery-img">
-      <img src="./images/frog-ga4dc73e66_640.jpg" alt="">
-    </div>
-    <div class="gallery-img">
-      <img src="./images/garden-g57ec018f8_640.jpg" alt="">
-    </div>
-    <div class="gallery-img">
-      <img src="./images/tree-g56fe0cf16_640.jpg" alt="">
-    </div>
+
   </section>
-
-  <div class="spacer"></div>
-
-  <a class="contacts" id="contact-me"></a>
-
-  <div class="wrapper">
-    <h3>Contact</h3>
-      <div class="contact-info">
-        <div>
-          <h4>Call! Me! Now!</h4>
-            <p><i class="phony"></i><a href="tel:+491234567890">1234 567890</a></p>
-        </div>
-        <div>
-          <h4>Mail</h4>
-          <p><i class="maily"></i><a href="mailto:henning.schwichow@gmx.de">henning.schwichow@gmx.de</a></p>
-        </div>
-      </div>
-  </div>
-         
   
-  <div class="spacer"></div>
-
-</main>
-  <footer>
-    <ul>
-      <li><a href="" class="button">Links</a></li>
-      <li><a href="" class="button">Contact</a></li>
-      <li><a href="#contacts" class="button">FAQ</a></li>
-    </ul>
-  </footer>
+<footer>
+  <h3>Find me on</h3>
+    <div class="main-navigation">
+      <a href="https://github.com/hennifant" class="icon"><img src="./images/github-logo.svg" alt="" width="60" height="60"></a>
+      <a href="https://codepen.io/hennifant" class="icon"><img src="./images/codepen-logo.svg" alt="" width="60" height="60"></a>
+      <a href="https://instagram.com/hennifant" class="icon"><img src="./images/instagram-logo.svg" alt="" width="60" height="60"></a>
+      <p>copyright by Henning Schwichow | 2022 </p>
+    </div> 
+</footer>
 
 </body>
 
