@@ -1,171 +1,175 @@
 * {
-    box-sizing: border-box;
-}
-
-main {
-    display: block;
-    box-shadow: 0px 0px 8px 0px;
-    margin: auto;
-    margin-top: 0;
-    font-family: 'Times New Roman', Times, serif;
-    background: whitesmoke;
-}
-
-header {
-    display: block;
-    position: sticky;
-    box-shadow: 0px 0px 8px 0px;
-    backdrop-filter: blur(4px);
-    top: 0;
-    margin: auto;
-    left: 0;
-    background: whitesmoke; 
-    font-family: monospace;
-}
-
-header a {
-    text-decoration: none;
-    color:black;
-    font-weight: bold;
-    font-size: 1.2rem;
-    padding-left: 1rem;
-}
-.header-img {
-    background: url(./images/buddhist-temple-gd19162d9b_1280.jpg);
-    display: block;
-    height: 20rem;
-    box-shadow: 0px 0px 8px 0px;
-    background-repeat: no-repeat;
-    background-size: auto;
-    margin: auto;
+  box-sizing: border-box;
 }
 
 body {
-    background: whitesmoke;
-    font-family: monospace;
-    display: block;
-    font-size: 18;
-    line-height: 2.5;
-    margin: 0;
-    text-align: center;
+  background: whitesmoke;
+  font-family: monospace;
+  display: block;
+  font-size: 0.8rem;
+  line-height: 2;
+  margin: 0;
+  text-align: center;
+  width: 80%;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+header {
+  display: block;
+  position: sticky;
+  box-shadow: 0px 0px 8px 0px;
+  backdrop-filter: blur(4px);
+  top: 0;
+  margin: auto;
+  left: 0;
+  background: whitesmoke;
+  font-family: monospace;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+}
+
+header h1 {
+  font-size: 3px, bold;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.header-img {
+  background: url(./images/buddhist-temple-gd19162d9b_1280.jpg);
+  display: block;
+  height: 20rem;
+  box-shadow: 0px 0px 8px 0px;
+  background-repeat: repeat-x;
+  background-size: auto;
+  margin: auto;
 }
 
 nav {
-    background: whitesmoke;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2px;
-    justify-content: flex-start;
-    align-content: flex-start;
-    
+  background: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  justify-content: flex-start;
+  align-content: flex-start;
 }
 
 .main-navigation > * {
-    flex-grow: 1;
-    flex-basis: 0;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .button {
-    color: black;
-    padding: 6px;
-    background-color: whitesmoke;
-    text-align: center;
-    text-decoration: none;
-    box-shadow: 4px 4px 4px rgba(0,0,0, 30%)
+  color: black;
+  padding: 6px;
+  background-color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 30%);
 }
 
 .button:hover {
-    background-color: rgb(19, 19, 19);
-    color: azure;
+  background-color: rgb(77, 80, 78);
+  color: whitesmoke;
 }
 
 section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .gallery {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .gallery-img {
-    display: flex;
-    justify-content: flex-start;
-    max-width: 100%;
-    padding: 1rem 1rem 1rem 1rem;
-    padding-bottom: 0;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  padding: 1rem 1rem 1rem 1rem;
+  padding-bottom: 0;
 }
 
 .gallery img {
-    max-width: 100%;
-    border-radius: 20px;
-    box-shadow: 0px 0px 8px 0px;
+  max-width: 100%;
+  border-radius: 1px;
+  border: solid 1px;
+  box-shadow: 0px 0px 8px 0px;
 }
 
 footer {
-    margin: auto;
-    margin-top: 0;
-    padding: 3px;
-    background: whitesmoke;
-    box-shadow: 0px 0px 8px 0px;
+  margin: auto;
+  margin-top: 0;
+  padding: 3px;
+  background: whitesmoke;
+  box-shadow: 0px 0px 8px 0px;
 }
 
 .icon {
-    color: black;
-    margin: 20px;
-    text-decoration: none;
+  color: black;
+  margin: 20px;
+  text-decoration: none;
 }
 
 .wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  padding: 0px;
 }
 
 .wrapper > * {
-    margin-bottom: 1rem;
-    flex-grow: 1;
-    flex-basis: 0;
-    padding: 4%;
-    margin-bottom: 1rem;
-    background: whitesmoke;
-    -webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
-    box-shadow: whitesmoke;
-    box-sizing: content-box;
-    min-width: 160px;
-    min-height: max-content;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 4%;
+  background: whitesmoke;
+  -webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: whitesmoke;
+  box-sizing: content-box;
+  min-width: 160px;
+  min-height: max-content;
 }
 
 .interest {
-    line-height: 1.6;
-    margin: 1em auto 1em 2em;
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    gap: 1em;
+  line-height: 1.6;
+  margin: 1em auto 1em 2em;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
 .interest-tag {
-    border: 1px solid black;
-    padding: 1px;
-    margin-bottom: 2px;
-    border-radius: 1px;
-    background-color: blanchedalmond;
+  border: 1px solid black;
+  padding: 2px;
+  margin-bottom: 3px;
+  border-radius: 1px;
+  background-color: whitesmoke;
 }
 
 .interest-tag:hover {
-    background-color: rgb(77, 80, 78);
-    box-shadow: 4px 4px 4px rgba(0,0,0, 30%)
+  background-color: rgb(77, 80, 78);
+  color: whitesmoke;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 30%);
 }
 
-li, ul {
-    list-style-type: none;
-    margin: 1;
-    padding: 0;
-    text-align: auto;
+li,
+ul {
+  list-style-type: none;
+  margin: 1;
+  padding: 0;
+  text-align: auto;
 }
