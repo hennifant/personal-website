@@ -1,0 +1,13 @@
+.button {
+  color: var(--color-black);
+  padding: 6px;
+  background-color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 30%);
+}
+
+.button:hover {
+  background-color: rgb(77, 80, 78);
+  color: whitesmoke;
+}

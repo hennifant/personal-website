@@ -1,0 +1,13 @@
+nav {
+  background: var(--color-withepaper);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.nav-main > * {
+  flex-grow: 1;
+  flex-basis: 0;
+}
